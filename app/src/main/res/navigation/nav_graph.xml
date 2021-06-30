@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/navigation_ListPhoto">
+
+    <fragment
+        android:id="@+id/navigation_ListPhoto"
+        android:name="com.example.picsum.ui.RandomPhotoList.RandomPhotoListFragment"
+        android:label="Random Photo"
+        tools:layout="@layout/fragment_photo_list"/>
+    <fragment
+        android:id="@+id/navigation_LikedListPhoto"
+        android:name="com.example.picsum.ui.LikedPhotoList.LikedPhotoListFragment"
+        android:label="Liked Photo"
+        tools:layout="@layout/fragment_liked_photo"/>
+</navigation>

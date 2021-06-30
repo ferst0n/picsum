@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_ListPhoto"
+        android:title="RandomPhoto"
+        android:icon="@drawable/dice"
+        />
+
+    <item
+        android:id="@+id/navigation_LikedListPhoto"
+        android:title="LikedPhoto"
+        android:icon="@drawable/like"
+        />
+
+
+
+</menu>
